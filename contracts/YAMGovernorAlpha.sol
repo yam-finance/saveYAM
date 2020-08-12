@@ -4,7 +4,7 @@ pragma experimental ABIEncoderV2;
 // SAVE YAM.
 
 
-import "../lib/SafeMath.sol";
+import "./lib/SafeMath.sol";
 
 contract GovernorAlpha {
     /// @notice The name of this contract

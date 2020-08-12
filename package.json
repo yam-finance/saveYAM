@@ -1,0 +1,28 @@
+{
+  "name": "saveyam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yam-finance/saveYAM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yam-finance/saveYAM/issues"
+  },
+  "homepage": "https://github.com/yam-finance/saveYAM#readme",
+  "dependencies": {
+    "dotenv-flow": "^3.2.0"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.0.42"
+  }
+}
