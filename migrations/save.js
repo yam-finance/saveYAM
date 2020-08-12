@@ -30,7 +30,7 @@ async function saveYAM(deployer, network) {
         "0xaE99fF8fe2236AF5083Ea979Ecf1DbAA0EFD07E3", "0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16"
       ],
       [0, 0],
-      ["4dd18bf5", "fa8f3455"], // bytes4(keccak256(setPendingAdmin(address))), bytes4(keccak256(_setRebaser(address))),
+      ["setPendingAdmin(address)", "_setRebaser(address)"],
       [
           SaviorGov.address,
           "0x0000000000000000000000000000000000000000"
